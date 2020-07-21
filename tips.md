@@ -48,6 +48,7 @@ funct TestExample(t *testing.T){
 }
 ```
 
+*Testing a funtion to take less than a certain time*
 
 
 ### Benchmarking
