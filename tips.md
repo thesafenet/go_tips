@@ -1,3 +1,10 @@
+### Getting started
+
+Check your env variables
+GOPATH - The GOPATH environment variable lists places to look for Go code. If the environment variable is unset, GOPATH defaults to a subdirectory named "go" in the user's home directory ($HOME/go on Unix, %USERPROFILE%\go on Windows)
+GOBIN  - The directory where 'go install' will install a command.
+GOROOT - The root of the go tree. 
+
 #Go tips and cool info
 
 ### OS and ARCH (GOOS and GOARCH)
@@ -63,4 +70,35 @@ funct TestExample(t *testing.B){
 
 ### Project template
 https://github.com/thockin/go-build-template
+
+### Folder structure
+src 
+  -<repositories>
+  -github.com
+    -<project>
+      -cmd
+        -<application>
+	  -main.go
+	-<anotherapp>
+	  -app.go (with own pacage name 'anotherapp')
+      -pkg
+        -codeaslibrary
+	  -library.go
+	-api
+	  -file.go
+      -api
+      -vendor
+      -internal
+    -project a 
+    -project b
+  -golang/org
+  -gitlab.com
+pkg
+  -linux_amd64
+  -libary
+    -file.go
+  -windows_amd64
+bin 
+
+
 
