@@ -60,3 +60,7 @@ funct TestExample(t *testing.B){
     }
 }
 ```		
+
+### Project template
+https://github.com/thockin/go-build-template
+
